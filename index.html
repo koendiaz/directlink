@@ -3,13 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redireccionando a Google Play Books</title>
-    <script type="text/javascript">
-        // Redirección directa a la Play Store
-        window.location.href = "https://play.google.com/store/books/details?id=OxU4EQAAQBAJ";
-    </script>
+    <title>Abrir en Google Play Books</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+        .button-external {
+            background-color: #008CBA;
+        }
+    </style>
 </head>
 <body>
-    <p>Estás siendo redirigido a Google Play Books. Si no funciona, haz clic <a href="https://play.google.com/store/books/details?id=OxU4EQAAQBAJ">aquí</a>.</p>
+    <h1>Google Play Books</h1>
+    <p>Elige cómo quieres abrir el libro:</p>
+
+    <!-- Botón para abrir en la Play Store -->
+    <a href="https://play.google.com/store/books/details?id=OxU4EQAAQBAJ" class="button">Abrir en Play Store</a>
+
+    <!-- Botón para abrir en un navegador externo -->
+    <a href="https://play.google.com/store/books/details?id=OxU4EQAAQBAJ" target="_blank" class="button button-external">Abrir en navegador externo</a>
+
+    <p>Si los botones no funcionan, copia y pega este enlace en tu navegador:</p>
+    <p><a href="https://play.google.com/store/books/details?id=OxU4EQAAQBAJ">https://play.google.com/store/books/details?id=OxU4EQAAQBAJ</a></p>
 </body>
 </html>
